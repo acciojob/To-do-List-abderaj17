@@ -13,7 +13,7 @@ btn.addEventListener('click', ()=>{
 		return;
 	}
 	const listItem = document.createElement('li');
-	listItem.innerHTML = `${valueF}`;
+	listItem.textContent = valueF;
 
 	list.appendChild(listItem);
 	input.value = ""; 
