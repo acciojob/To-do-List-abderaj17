@@ -16,5 +16,5 @@ btn.addEventListener('click', ()=>{
 	listItem.innerHTML = `${valueF}`;
 
 	list.appendChild(listItem);
-	input = "";
+	input.value = ""; 
 })
